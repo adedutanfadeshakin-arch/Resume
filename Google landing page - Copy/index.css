@@ -1,0 +1,303 @@
+body{
+    font-family: roboto;
+    padding: 1vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(43, 43, 43);
+    align-items: center;
+    gap: 7vh
+
+
+}
+
+header{
+    flex: ;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 10px; 
+    align-self: flex-end;
+}
+
+header>a{
+    
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+header>img{
+    height: 18px;
+}
+
+.acc{
+    background-color: rgb(0, 128, 255);
+    padding: 1vh 1vh;
+    border: none;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4vh;
+    width: 100%;
+    font-family: arial;
+
+}
+
+main>img{
+    width: 230px;
+    height: auto;
+    margin-bottom: 3vh ;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    border-radius: 10vh;
+    background-color: rgba(95, 95, 95, 0.573);
+    padding: 1.4vh 1vh;
+    gap: 1vh ;
+   
+}
+
+section>img{
+    height: 17px;
+}
+section>div>div>img{
+    height: 20px;
+}
+
+.phone{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5vh;
+}
+
+
+.aimode{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size:11px;
+    gap: .5vh;
+    font-weight: 500;
+    background-color:transparent ;
+    border: 1px solid white;
+    border-radius: 10vh;
+    height:2vh;
+    padding: 1.5vh 1.5vh;
+    color: white;
+
+}
+
+.aimode>img{
+    height: 15px;
+}
+
+.aimode>p{
+
+
+}
+
+
+section>input{
+    border: none;
+    outline: none;
+    background-color: rgba(240, 248, 255, 0);
+    width: 65%;
+    color: white;
+}
+
+
+
+.search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3vh;
+}
+
+.Other-details{
+    display: flex;
+    flex-direction: column;
+    gap: 8vh;
+}
+
+.btn-div{
+    text-align: center;
+
+    
+}
+
+.btn{
+    padding: 1.5vh 2vh;
+    background-color: rgba(81, 81, 81, 0.406);
+    border: none;
+    border: none;
+    border-radius: 1vh;
+    color: white;
+    font-size: 13px;
+    font-weight: 540;
+}
+
+
+
+
+.lan{
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    word-spacing: ;
+}
+
+.lan>a{
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(0, 128, 255);
+    
+}
+
+
+
+.container1{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.461);
+    padding: 2vh;
+
+}
+.container1>p{
+    color: white;
+
+}
+
+.container1>a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+
+
+
+.container2{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.461);
+    border: 1px solid rgb(143, 143, 143);
+    justify-content: space-between;
+    padding: 3vh;
+    
+    
+}
+
+
+
+.sub1{
+    display: flex;
+    flex-direction: row;
+    gap: 5vh;
+    
+}
+
+.sub1>a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    
+}
+
+
+/* .sub2{
+    display: flex;
+    flex-direction: row;
+    gap: 5vh;
+} */
+
+
+
+.sub2>a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    
+}
+
+
+.sub3{
+    display: flex;
+    flex-direction: row;
+    gap: 5vh;
+}
+
+.sub3>a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    
+}
+
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+/* 
+.sub1{
+    display: flex;
+    gap: 10px;
+}
+ */
+
+    
+
+
+
+
+@media (max-width:768px) {
+    .container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh
+
+}
+
+    section{
+        width: 95%;
+    }
+
+    section>input{
+        width: 55%;
+    }
+
+}
+
+
+@media (max-width:364px) {
+    main{
+        
+    }
+}
+
+
+
+
+
+
